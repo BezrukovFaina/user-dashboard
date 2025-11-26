@@ -1,0 +1,58 @@
+.user-dashboard {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.user-dashboard h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.user-dashboard .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.user-dashboard .container .card {
+  width: calc(33.33% - 20px);
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.user-dashboard .container .card h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.user-dashboard .container .card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.user-dashboard .container .card li {
+  margin-bottom: 10px;
+}
+
+.user-dashboard .container .card button {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.user-dashboard .container .card button:hover {
+  background-color: #3e8e41;
+}
