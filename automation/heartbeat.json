@@ -1,0 +1,17 @@
+{
+  "status": "healthy",
+  "timestamp": "2024-10-27T10:30:00Z",
+  "service": "user-dashboard",
+  "version": "1.2.3",
+  "uptime_seconds": 3600,
+  "dependencies": {
+    "database": "healthy",
+    "cache": "healthy",
+    "authentication_service": "healthy"
+  },
+  "metrics": {
+    "cpu_usage": 0.15,
+    "memory_usage_mb": 256,
+    "requests_per_minute": 120
+  }
+}
